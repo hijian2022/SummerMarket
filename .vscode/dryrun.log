@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/jian/Desktop/SummerMarket'
+gcc  -c -I include  src/hello.c -o src/hello.o
+gcc  -c -I include  src/main.c -o src/main.o
+gcc  -o main  src/hello.o src/main.o 
+git commit -a -m "> make"
+make: Leaving directory `/Users/jian/Desktop/SummerMarket'
+ 
