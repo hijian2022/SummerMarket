@@ -1,5 +1,4 @@
-#include <stdio.h>
-
-void hello() {
-    printf("Hello, SumberCode!\n");
-}
+#ifndef _HELLOH_
+#define _HELLOH_
+void hello();
+#endif
